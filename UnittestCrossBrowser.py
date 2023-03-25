@@ -202,7 +202,7 @@ class GoogleChrome(unittest.TestCase):
         # Close entire Browser:
         driver2.quit()
 
-    # Check the ability of user sign up for NASA’s Newsletters (TC-001):
+    # Check the ability of user sign up for NASAâ€™s Newsletters (TC-001):
     def test_newsletters(self):
         driver2 = self.driver
         driver2.get(HP.url)
@@ -513,7 +513,7 @@ class GoogleChrome(unittest.TestCase):
         # Close entire Browser:
         driver2.quit()
 
-    # Verify that the “Search” field is working appropriate, (TC-007):
+    # Verify that the â€œSearchâ€ field is working appropriate, (TC-007):
 
     def test_search_field(self):
         driver2 = self.driver
@@ -549,7 +549,7 @@ class GoogleChrome(unittest.TestCase):
         # Close entire Browser:
         driver2.quit()
 
-    # Verify that the “Search” field is working appropriate/Negative Testing),(TC-008):
+    # Verify that the â€œSearchâ€ field is working appropriate/Negative Testing),(TC-008):
 
     def test_search_field_negative(self):
         driver2 = self.driver
@@ -791,7 +791,7 @@ class FireFox(unittest.TestCase):
         # Close Browser's tab
         driver2.close()
 
-    # Check the ability of user Sign Up for NASA’s Newsletters, (TC-001):
+    # Check the ability of user Sign Up for NASAâ€™s Newsletters, (TC-001):
     def test_newsletters(self):
         driver2 = self.driver
         driver2.get(HP.url)
@@ -1099,7 +1099,7 @@ class FireFox(unittest.TestCase):
         # Close entire Browser:
         driver2.quit()
 
-    # Verify that the “Search” field is working appropriate, (TC-007):
+    # Verify that the â€œSearchâ€ field is working appropriate, (TC-007):
 
     def test_search_field(self):
         driver2 = self.driver
@@ -1135,7 +1135,7 @@ class FireFox(unittest.TestCase):
         # Close entire Browser:
         driver2.quit()
 
-    # Verify that the “Search” field is working appropriate/Negative Testing),(TC-008):
+    # Verify that the â€œSearchâ€ field is working appropriate/Negative Testing),(TC-008):
 
     def test_search_field_negative(self):
         driver2 = self.driver
